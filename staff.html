@@ -42,13 +42,13 @@
 
 </head>
 
-<body class="body-gallery">
+<body class="container">
     <!-- BARRA DE NAVEGACIÓN -->
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark" aria-label="Fourth navbar example">
+    <nav class="navbar sombra navbar-expand-md navbar-dark bg-dark rounded-bottom-3" aria-label="Fourth navbar example">
         <div class="container">
             <!-- ICONO -->
-            <a class="navbar-brand" href="#"> <img class="navbar-brand" src="img/favicon.svg" alt="Logo The Power of Love de
-                la barra de navegación" style="width: 40px;"></a>
+            <a class="navbar-brand favicon-width" href="index.html"> <img class="navbar-brand" src="img/favicon.svg" alt="Logo The Power of Love de
+                la barra de navegación"></a>
             <div class="d-flex justify-content-end">
                 <!-- CONTENIDO HAMBURGUESA -->
                 <div class="collapse navbar-collapse" id="navbarsExample04">
@@ -60,16 +60,10 @@
                             <a class="nav-link" href="gallery.html">Galería</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link " href="planes.html">Planes</a>
+                            <a class="nav-link" href="planes.html">Planes</a>
                         </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle active" href="staff.html" data-bs-toggle="dropdown"
-                                aria-expanded="false">Staff</a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                            </ul>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="staff.html">Staff</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="contacto.html">Contacto</a>
@@ -88,8 +82,7 @@
 
     <!-- TITULO -->
     <header class="bg-light container pb-3">
-        <div class="mx-auto rounded-3 rounded-top-0 border border-2 border-top-0 border-dark sombra"
-            style="max-width: 80%;">
+        <div class="mx-auto rounded-3 rounded-top-0 border border-2 border-top-0 border-dark sombra header-inicio">
             <h1 class="anero fs-1 text-center">Fuerza humana</h1>
             <p class="text-center"><strong>Nuestro personal tiene el compromiso y las capacidades necesarias <br>
                     para que puedas aumentar tu rendimiento.</strong></p>
@@ -102,7 +95,7 @@
         <section>
             <div class="d-flex flex-column justify-content-center col-12">
                 <div class="mx-auto justify-content-between p-0 row row-gap-3 d-flex align-items-center mb-5">
-                    <div class="p-0 mx-auto col-8 rounded rounded-3" style="min-width: 300px;">
+                    <div class="p-0 mx-auto col-8 rounded rounded-3 min-width-300-hero">
                         <!-- CARROUSEL -->
                         <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
                             <div class="carousel-inner">
@@ -125,7 +118,7 @@
                         </div>
                     </div>
                     <!-- CARD -->
-                    <div class="mx-auto col-4 p-0" style="min-width: 300px;">
+                    <div class="mx-auto col-4 p-0 card-staff">
                         <div class="sombra p-3 pb-4 bg-dark rounded rounded-3 border border-2 border-dark text-center">
                             <h2 class="anero fs-2 text-center">El verdadero<br>poder</h2>
                             <p class="text-white p-2">El crew team de <em>The Power of Love</em> está conformado por
@@ -358,20 +351,21 @@
 
     <!-- FOOTER -->
     <footer class="container bg-light">
-        <div class="p-2 container d-flex align-items-center justify-content-between rounded-3 rounded-bottom-0 border border-bottom-0  border-2  border-dark"
-            style="max-width: 90%;">
+        <div class="p-2 container d-flex align-items-center 
+        justify-content-between rounded-3 rounded-bottom-0 border 
+        border-bottom-0  border-2  border-dark footer-width">
             <div class="w-auto col mx-auto">
                 <div class="row d-flex justify-content-start ms-3">
                     <ul class="nav col-md-4 justify-content-start">
-                        <li class="nav-item"><a href="https://www.whatsapp.com/?lang=es" target="_blank"><img class="mx-2 w-auto img-fluid"
-                            src="img/whatsapp.svg" alt="Whatsapp" style="height: 20px;"></a></li>
-                        <li class="nav-item"><a href="wwww.instagram.com/" target="_blank"><img class="mx-2 w-auto img-fluid" src="img/instagram.svg"
-                            alt="Instagram" style="height: 20px;"></a></li>
+                        <li class="nav-item"><a href="https://www.whatsapp.com/?lang=es" target="_blank"><img class="icono-footer mx-2 w-auto img-fluid"
+                            src="img/whatsapp.svg" alt="Whatsapp"></a></li>
+                        <li class="nav-item"><a href="wwww.instagram.com/" target="_blank"><img class="icono-footer mx-2 w-auto img-fluid" src="img/instagram.svg"
+                            alt="Instagram"></a></li>
                     </ul>
                 </div>
             </div>
             <div class="col me-3">
-                <p class="mb-0 text-end" style="font-size: 8pt;">Autor de este documento: Meiriño, Rodrigo.</p>
+                <p class="mb-0 text-end autor">Autor de este documento: Meiriño, Rodrigo.</p>
             </div>
         </div>
     </footer>
@@ -379,3 +373,4 @@
     <!-- JAVASCRIPT -->
     <script src="js/bootstrap.bundle.min.js"></script>
 </body>
+</html>
