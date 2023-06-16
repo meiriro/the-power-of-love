@@ -1,0 +1,118 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.col{
+    padding: 0;
+}
+
+.row{
+    padding: 0%;
+}
+
+body{
+    background-image: url(../img/cuadricula.svg);
+}
+
+/*FOOTER*/
+.footer-width{
+    width: 90%
+}
+
+.icono-footer{
+    height: 20px;
+}
+
+.autor{
+    font-size: 8pt;
+}
+
+/*TEXTO*/
+.anero{
+    font-family: aneroregular;
+}
+
+h2{
+    color: #ffe501;
+}
+
+h3{
+    color: #ffe501;
+}
+
+/*BOTON CALL TO ACTION*/
+.cta{
+    color: #ffe501;
+    text-decoration: none;
+    border-color: #ffe501;
+    border-style: solid;
+}
+.cta:hover{
+    color: #efefef;
+    border-color: #efefef;
+    }
+
+.cta-submit{
+    color: #ffe501;
+    border-color: #ffe501;
+    text-decoration: none;
+}
+.cta-submit:hover{
+    color: #efefef;
+    border-color: #efefef;
+    }
+
+.sombra{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+/*INICIO STYLES INICIO*/
+.favicon-width{
+    width: 50px;
+}
+
+.header-inicio{
+    max-width: 80%;
+}
+
+.min-width-300-hero{
+    min-width: 300px;
+}
+
+.min-width-200-planes{
+    min-width: 200px;
+}
+
+/*FIN STYLES INICIO*/
+
+/*INICIO STYLES GALERIA*/
+.img-galeria{
+    min-width: 200px;
+}
+
+.thumb-galeria{
+    width: 100%;
+}
+/*FIN STYLES GALERIA*/
+
+/*INICIO STYLES PLANES*/
+.section-width{
+    max-width: 90%;
+}
+
+.col-1-tabla{
+    width: 9%;
+}
+
+.col-tabla{
+    width: 18%;
+}
+/*FIN STYLES PLANES*/
+
+/*INICIO STYLES PLANES*/
+.card-staff{
+    min-width: 300px;
+}
+/*FIN STYLES PLANES*/
